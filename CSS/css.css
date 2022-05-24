@@ -1,0 +1,125 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    color: #E0E1DD;
+    margin: 0;
+}
+
+body {
+    background: rgb(7,17,27);
+    background: linear-gradient(270deg, rgba(7,17,27,1) 5%, rgba(49,75,105,1) 50%, rgba(7,17,27,1) 95%);
+    
+}
+
+header{
+    color: #E0E1DD;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px;
+    border-bottom: 1px solid #369;
+}
+
+.titulo{
+    font-size: 150%;
+    font-weight: 700;
+}
+.consulta {
+    margin-top: 100px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-auto-columns: 100%;
+    text-align: center;
+    gap: 15px;
+}
+
+.consultastotal_dom{
+    margin-top: 30px;
+    padding: 30px;
+    border-bottom: 1px solid #369;
+}
+
+.consultastotal_estructura{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #369;
+    margin: 0 auto;
+}
+
+
+.consultastotal_lading{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #369;
+    padding: 10px;
+}
+.consultastotal_fullstack{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #369;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    font-size: 20px;
+}
+
+ul{
+    text-align: left;
+}
+img{
+    max-width: 95%;
+}
+
+
+@media (min-width: 768px) {
+
+    header{
+        border-bottom: 0ch;
+    }
+    .titulo{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .contenedor {
+        display: grid;
+        grid-template-rows: 1fr 2fr 2fr;
+        grid-auto-columns: 65%;
+        gap: 15px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .consultastotal_dom{
+        border: 1px solid #369;
+    }
+    
+    .consultastotal_estructura{
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #369;
+        
+    }
+    
+    
+    .consultastotal_lading{
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #369;
+    }
+
+    .consultastotal_fullstack{
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #369;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+}

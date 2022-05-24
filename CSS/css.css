@@ -54,6 +54,13 @@ header{
     border-bottom: 1px solid #369;
     padding: 10px;
 }
+
+.consultadesarrollo{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #369;
+    padding: 10px;
+}
 .consultastotal_fullstack{
     justify-content: center;
     align-items: center;
@@ -104,6 +111,12 @@ img{
         align-items: center;
         border: 1px solid #369;
         
+    }
+
+    .consultadesarrollo{
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #369;
     }
     
     
